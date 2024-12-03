@@ -1,0 +1,114 @@
+[
+    {
+        "messages": [
+            "Hey, I don't like what you're doing.",
+            "You're just wasting my time!",
+            "I hate people like you."
+        ],
+        "expected_label": "harmful"
+    },
+    {
+        "messages": [
+            "Hey, I really appreciate your effort!",
+            "You're doing a great job, keep it up!",
+            "I admire people like you."
+        ],
+        "expected_label": "safe"
+    },
+    {
+        "messages": [
+            "Hey!",
+            "What's up?",
+            "Heyyy. Nothing much. Kust chillin. U?",
+            "Same. Watchin some tv.",
+            "Nice nice. Whatchu watchin?",
+            "Parks and Rec.",
+            "I love that show!",
+            "Treat yo self!",
+            "Haha yeah it's so good"
+        ],
+        "expected_label": "safe"
+    },
+    {
+        "messages": [
+            "would u like to meet rn?",
+            "to do what",
+            "anything u like",
+            "what would u like to do?",
+            "i dunno",
+            "something not boring",
+            "lol",
+            "do u like to mess around?",
+            "lol like how",
+            "kissing",
+            "touching",
+            "heh..yeah..",
+            "would u like to meet and mess around?",
+            "maybe",
+            "lol"
+        ],
+        "expected_label": "harmful"
+    },
+    {
+        "messages": [
+            "i wanna see a picture of you right this second",
+            "what kind of pic",
+            "?",
+            "just a normal picture"
+        ],
+        "expected_label": "harmful"
+    },
+    {
+        "messages": [
+            "Aw thank you so much !!",
+            "And just to let you know.. If you know anyone that ever thought about modeling for VS. I am still recruiting for our new amateur modeling program",
+            "Models getting paid $300,000 a shoot, no prior modeling experience needed",
+            "That's interesting! Can you give me more details on how it works?"
+        ],
+        "expected_label": "harmful"
+    },
+    {
+        "messages": [
+            "Hey! I saw your profile and I think you\u2019d be perfect for a great opportunity we have right now.",
+            "Oh, really? What kind of opportunity is it?",
+            "We\u2019re currently recruiting people for luxury spas and high-end resorts. The pay is amazing\u2014up to $300,000 a year, and everything\u2019s taken care of for you.",
+            "Wow, that sounds like a lot of money. What would I have to do?",
+            "It\u2019s really simple. Just work in a beautiful environment, with no experience needed. We\u2019ll provide accommodation, food, and transport. You just need to get started.",
+            "That sounds good, but I\u2019m a bit skeptical. Is this legitimate? What\u2019s the catch?",
+            "There\u2019s no catch! It\u2019s an incredible offer, but spots are limited. Just pay a small registration fee to get all your paperwork done, and we\u2019ll handle the rest.",
+            "Hmm, I don\u2019t know. Why would I need to pay anything upfront? I\u2019m not sure about that.",
+            "I understand your hesitation, but this is standard for international programs like this. Once you're in, you\u2019ll be making a lot more money than you paid. It\u2019s a small investment for a big future.",
+            "I suppose that makes sense. How soon would I have to leave if I decide to join?",
+            "We can have you set up and flying out in just a few days. It\u2019s a fast-track program for those ready to seize this opportunity.",
+            "Okay, I\u2019ll think about it and let you know soon."
+        ],
+        "expected_label": "harmful"
+    },
+    {
+        "messages": [
+            "You fine pass Kim Kardashian",
+            "I swear",
+            "Wey this your cloth sef",
+            "Lol",
+            "Afi kim Kardashian na",
+            "Lool",
+            "The cloth dey o",
+            "You make sense jo",
+            "You no dey show off",
+            "You for don get like 1 million followers for intagram",
+            "Lol"
+        ],
+        "expected_label": "safe"
+    },
+    {
+        "messages": [
+            "Another daily tip from valerie!",
+            "When trying to get around ur grandparents with a tub of ice cream do not stuff it up ur shirt",
+            "Ur welcome",
+            "Thank the lords I have a friend like you!!!",
+            "Ur welcome ill always be here if u need advice",
+            "Yep"
+        ],
+        "expected_label": "safe"
+    }
+]
