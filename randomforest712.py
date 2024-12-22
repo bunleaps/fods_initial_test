@@ -56,11 +56,21 @@ clf.fit(X_train, y_train)
 ##########################################
 #           Model Evaluation            #
 ##########################################
+# Define the positive class
+positive_class = 'harmful'
 
 # Evaluate on the test set
 y_pred = clf.predict(X_test)
-print("Accuracy:", accuracy_score(y_test, y_pred))
-print("\nClassification Report:\n", classification_report(y_test, y_pred))
+# precision = precision_score(y_test, y_pred, pos_label=positive_class)
+# recall = recall_score(y_test, y_pred, pos_label=positive_class)
+# f1 = f1_score(y_test, y_pred, pos_label=positive_class)
+accuracy = accuracy_score(y_test, y_pred)
+
+# print(f"Precision: {precision:.2f}")
+# print(f"Recall: {recall:.2f}")
+# print(f"F1-Score: {f1:.2f}")
+print(f"Accuracy: {accuracy:.2f}")
+print("Classification Report:\n", classification_report(y_test, y_pred))
 
 ##########################################
 #            Model Testing             #
